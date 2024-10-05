@@ -1,0 +1,62 @@
+# dependencies
+/node_modules
+npm-debug.log
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Devskiller
+test-results.xml
+
+
+### *** required entries below ***
+###
+### Please do not add anything below this line, your changes will be overwritten
+###
+*.iml
+*.iws
+.externalToolBuilders/
+.DS.d74cb6fe
+__MACOSX/
+.idea/
+.nb-gradle/
+.history/
+atlassian-ide-plugin.xml
+nbactions.xml
+nbbuild/
+nbdist/
+nbproject/private/
+### VisualStudioCode ###
+!.vscode/52b83
+*.code-workspace
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+node_modules
+.npm-debug.log
+tmp
+
+
+
+
+###
+###                                                                                                                                                                                                                                  git#338819
+###

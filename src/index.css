@@ -1,0 +1,125 @@
+body{
+    background: white;
+    color:blue;
+}
+
+#table-section{
+    width: 500px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -250px;
+    position: absolute;
+}
+
+#status {
+    top: 10%;
+    left: 45%;
+    width: 10%;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+}
+
+.restart {
+    top: 15%;
+    left: 45%;
+    width: 10%;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+}
+
+#restart-btn {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.line{
+    border-radius: 15px;
+    position: absolute;
+    display: inline-block;
+}
+
+.horizontal{
+    border-left: 20px solid blue;
+    height:100%;
+}
+
+.line1{
+    left:25%;
+    margin-left: -10px;
+}
+
+.line2{
+    left:50%;
+    margin-left: -2px;
+}
+
+.line3{
+    left: 75%;
+    margin-left: -2px;
+}
+
+.vertical{
+    border-top: 20px solid blue;
+    width: 100%;
+}
+
+.line4{
+    top:25%;
+    margin-top: -2px;
+}
+
+.line5{
+    top:50%;
+    margin-top: -2px;
+}
+
+.line6{
+    top:75%;
+    margin-top: -2px;
+}
+.row{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.tile{
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    width: 125px;
+    height: 125px;
+    display: flex;
+}
+
+#players{
+    position: fixed;
+    bottom: 20px;
+    display:inline-flex;
+    width: 100%;
+    justify-content: center;
+    /*justify content mueve el contenido a la mitad al centro del contenedor(solpara flex)  */
+    align-items: center;
+}
+
+.player{
+    border: 5px solid white;
+    border-radius: 10%;
+    margin-left: 6%;
+    margin-right: 6%;
+    font-size: 200%;
+    padding: 2px 10px 2px 10px;
+}
+
+.active{
+    background: green;
+}
