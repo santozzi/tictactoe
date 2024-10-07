@@ -106,6 +106,10 @@ class Logical {
       ['', '', '',''],
       ['', '', '','']
       ];
+      this.count=0;
+      this.turn = true;
+      this.fin = false;
+     
     }
     showMatrix(){
       console.log(this.matrix);
