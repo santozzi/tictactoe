@@ -1,4 +1,7 @@
 # Office Game JS
+
+![alt text](image.png)
+
 ## Introduction
 
 Your new company wants to create a game for its employees to relax during breaks after all the hard work they are putting in. Your task is to finish the modified version of a popular Tic-tac-toe game, as your colleague has already started the implementation.
